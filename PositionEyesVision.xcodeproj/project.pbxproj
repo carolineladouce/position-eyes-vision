@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C61577EA287BEADC0086662B /* RectangleViewToSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61577E9287BEADC0086662B /* RectangleViewToSwiftUI.swift */; };
 		C6F9C856286219BE008C36C0 /* PositionEyesVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9C855286219BE008C36C0 /* PositionEyesVisionApp.swift */; };
 		C6F9C858286219BE008C36C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9C857286219BE008C36C0 /* ContentView.swift */; };
 		C6F9C85A286219C0008C36C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F9C859286219C0008C36C0 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		C6F9C867286219C0008C36C0 /* PositionEyesVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9C866286219C0008C36C0 /* PositionEyesVisionTests.swift */; };
 		C6F9C871286219C0008C36C0 /* PositionEyesVisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9C870286219C0008C36C0 /* PositionEyesVisionUITests.swift */; };
 		C6F9C873286219C0008C36C0 /* PositionEyesVisionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9C872286219C0008C36C0 /* PositionEyesVisionUITestsLaunchTests.swift */; };
+		C6F9C88028621A72008C36C0 /* CameraVisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9C87F28621A72008C36C0 /* CameraVisionView.swift */; };
+		C6F9C88228621ACF008C36C0 /* CameraVisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9C88128621ACF008C36C0 /* CameraVisionViewController.swift */; };
+		C6F9C88428638A64008C36C0 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9C88328638A64008C36C0 /* RectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C61577E9287BEADC0086662B /* RectangleViewToSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleViewToSwiftUI.swift; sourceTree = "<group>"; };
 		C6F9C852286219BE008C36C0 /* PositionEyesVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PositionEyesVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F9C855286219BE008C36C0 /* PositionEyesVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionEyesVisionApp.swift; sourceTree = "<group>"; };
 		C6F9C857286219BE008C36C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,9 @@
 		C6F9C86C286219C0008C36C0 /* PositionEyesVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PositionEyesVisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F9C870286219C0008C36C0 /* PositionEyesVisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionEyesVisionUITests.swift; sourceTree = "<group>"; };
 		C6F9C872286219C0008C36C0 /* PositionEyesVisionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionEyesVisionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6F9C87F28621A72008C36C0 /* CameraVisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVisionView.swift; sourceTree = "<group>"; };
+		C6F9C88128621ACF008C36C0 /* CameraVisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVisionViewController.swift; sourceTree = "<group>"; };
+		C6F9C88328638A64008C36C0 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				C6F9C855286219BE008C36C0 /* PositionEyesVisionApp.swift */,
 				C6F9C857286219BE008C36C0 /* ContentView.swift */,
+				C6F9C88328638A64008C36C0 /* RectangleView.swift */,
+				C61577E9287BEADC0086662B /* RectangleViewToSwiftUI.swift */,
+				C6F9C87F28621A72008C36C0 /* CameraVisionView.swift */,
+				C6F9C88128621ACF008C36C0 /* CameraVisionViewController.swift */,
 				C6F9C859286219C0008C36C0 /* Assets.xcassets */,
 				C6F9C85B286219C0008C36C0 /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F9C88428638A64008C36C0 /* RectangleView.swift in Sources */,
 				C6F9C858286219BE008C36C0 /* ContentView.swift in Sources */,
+				C6F9C88028621A72008C36C0 /* CameraVisionView.swift in Sources */,
+				C6F9C88228621ACF008C36C0 /* CameraVisionViewController.swift in Sources */,
 				C6F9C856286219BE008C36C0 /* PositionEyesVisionApp.swift in Sources */,
+				C61577EA287BEADC0086662B /* RectangleViewToSwiftUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +436,7 @@
 				DEVELOPMENT_TEAM = RKZTN2J83Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "User permission required to access camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +466,7 @@
 				DEVELOPMENT_TEAM = RKZTN2J83Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "User permission required to access camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
